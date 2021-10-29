@@ -56,7 +56,7 @@ const getECSService = async ({
 
 async function run() {
 
-  const client = new ECSClient({ region: 'us-east-1' })
+  const client = new ECSClient({ region: 'us-west-2' })
 
   const cluster = core.getInput('cluster-name')
   const service = core.getInput('service-name')
